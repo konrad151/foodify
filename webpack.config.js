@@ -3,9 +3,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     devServer: {
-        contentBase: "./src/"
+        contentBase: "./dist/"
     },
-    entry: './src/js/app.js',
+    entry: ['babel-polyfill','./src/js/app.js'],
     output: {
        path: path.join(__dirname, '/dist'),
        filename: 'build.js'
@@ -28,6 +28,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
+            filename: 'index.html',
             template: './src/index.html'
         })
     ]
