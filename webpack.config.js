@@ -12,7 +12,7 @@ module.exports = {
     },
     optimization: {
 		//  don't minimize our code
-		minimize: false
+		minimize: true
     },
     devtool: '#eval-source-map',
     module: {

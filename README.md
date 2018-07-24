@@ -1,1 +1,1 @@
-### Course from udemy, application based on food API, find your dinner and add indegredients to your basket!
+### Course from udemy, application based on food API, find your dinner and add ingredients to your basket!
