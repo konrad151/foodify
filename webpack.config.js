@@ -14,7 +14,8 @@ module.exports = {
 		//  don't minimize our code
 		minimize: true
     },
-    devtool: '#eval-source-map',
+    // devtool: '#eval-source-map',
+    devtool: '#source-map',
     module: {
         rules: [
             {
