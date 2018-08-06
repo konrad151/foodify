@@ -1,5 +1,5 @@
 export default `
     <header>
-        <h1>Working comp</h1>
+        <h1>Working compp</h1>
     </header>
 `;
